@@ -6,7 +6,6 @@ target 'BasicProject' do
   use_frameworks!
   pod 'RxSwift'
   pod 'Moya/RxSwift'
-  pod 'HandyJSON'
   pod 'ReachabilitySwift'
 end
 

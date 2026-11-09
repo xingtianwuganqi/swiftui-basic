@@ -8,7 +8,6 @@
 import Foundation
 import Moya
 import RxSwift
-import HandyJSON
 import Alamofire
 
 public var baseUrlConfig: String = ""

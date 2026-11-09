@@ -35,6 +35,4 @@ Pod::Spec.new do |spec|
   spec.ios.dependency 'ReachabilitySwift'
   spec.ios.dependency 'RxSwift'
   spec.ios.dependency 'Moya/RxSwift'
-  spec.ios.dependency 'HandyJSON'
-
 end

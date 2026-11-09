@@ -210,9 +210,6 @@ public class Tool: NSObject  {
         return timeStamp
     }
     
-    public func getOrientation() -> UIInterfaceOrientation {
-        return UIApplication.shared.statusBarOrientation
-    }
     // 字符串数组转json字符串
     public func stringFromArr(from object: Any) -> String? {
         if let objectData = try? JSONSerialization.data(withJSONObject: object, options: JSONSerialization.WritingOptions(rawValue: 0)) {
